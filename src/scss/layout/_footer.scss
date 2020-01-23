@@ -1,0 +1,113 @@
+.nav-footer {
+  height: 395px;
+  background: #202942;
+  border-radius: 0px;
+  position: relative;
+  margin-top: 50px;
+
+  .section-1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    .text {
+      padding: 10px 40px;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 1px;
+      color: #F8F9FC;
+
+      .arrow {
+        height: 5px;
+        width: 5px;
+        border-top: 1px solid #ADB5BD;
+        border-right: 1px solid #ADB5BD; 
+        transform: rotate(45deg);
+        display: inline-flex;
+        margin-right: 6px;
+      }
+
+      &__small {
+        font-size: 16px;
+        line-height: 20px;
+        color: #ADB5BD;
+        max-width: 250px;
+      }
+
+      &__tiny {
+        font-size: 14px;
+        line-height: 21px;
+        color: #ADB5BD;
+        
+        .asterisk {
+          color: #E43F52;
+        }
+      }
+
+      .email {
+        background: #25304E;
+        border: 1px solid #25304E;
+        box-sizing: border-box;
+        border-radius: 10px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        
+        &__text {
+          text-align: left;
+          letter-spacing: 0.5px;
+          color: #F8F9FC;
+          font-size: 16px;
+          line-height: 24px;
+          padding-left: 10px;
+        }
+
+        .fa-config {
+          margin-left: 10px;
+        }
+      }
+
+      .list {
+        list-style: none;
+        color: #ADB5BD;
+        padding: 0;
+        font-size: 16px;
+        line-height: 20px;
+        
+        &__item {
+          margin: 10px;
+        }
+      }
+
+      .buton {
+        padding: 16px 90px;
+        height: 42px;
+        font-size: 12px;
+        position: absolute;
+        margin-left: 2px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .section-2 {
+    display: flex; 
+    border-top: 1px solid #ffffff;
+
+    .content {
+      color: #ADB5BD;
+      padding: 10px 50px;
+    }
+
+    .brand {
+      flex: 1;
+      justify-content: flex-end;
+      display: flex;
+      align-items: center;
+
+      .scale-image {
+        transform: scale(0.5);
+      }
+    }
+  }
+}

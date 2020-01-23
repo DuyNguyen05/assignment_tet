@@ -1,0 +1,35 @@
+.btn {
+  border-radius: 10px;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  
+  &:hover {
+    background: #2443AC;
+    border: 1px solid #2F55D4;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 5px rgba(47, 85, 212, 0.3);
+    border-radius: 10px;
+    color: #ffffff;
+  }
+}
+  
+.btn-primary {
+  background: #2F55D4;
+  border: 1px solid #2F55D4;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 5px rgba(47, 85, 212, 0.3);
+  margin: 10px;
+  color: #ffffff;
+}
+
+.btn-trial {
+  background: #ffffff;
+  border: 1px solid #2F55D4;
+  color: #2F55D4;
+}
